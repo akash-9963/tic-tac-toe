@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #80ced7;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #ccdbdc;
+    border-radius: 25%;
+    font-size: 8vmin;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #263d42;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #263d42;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+.hide{
+    display: none;
+}
+#msg{
+    color: #263d42;
+    font-size: 5vmin;
+    margin-bottom: 5em;
+    font-weight: bold;
+}
+.msg-container{
+    height: 100vmin;
+    margin: 8em 0;
+    justify-content: center;
+    align-items: center;
+    gap:4em;
+}
+.heading{
+    margin-top: 1.5em;
+}
+@media only screen and (max-width: 600px) {
+    #new-btn{
+        padding: .8rem;
+        font-size: 1.2rem;
+        background-color: #263d42;
+        color: white;
+        border-radius: 1rem;
+        border: none;
+    }
+    .msg-container{
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        gap:4em;
+    }
+    #reset-btn{
+        padding: .8rem;
+        font-size: 1.2rem;
+        background-color: #263d42;
+        color: white;
+        border-radius: 1rem;
+        border: none;
+    }
+    #msg{
+        color: #263d42;
+        font-size: 1.75em;
+        margin-bottom: 5em;
+        font-weight: bold;
+    }
+    .heading{
+        margin-top: 1.5em;
+    }
+    
+  }
